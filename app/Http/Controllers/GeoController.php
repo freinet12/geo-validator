@@ -24,6 +24,7 @@ class GeoController extends Controller
      */
     public function store(Request $request)
     {
+       
         if (!$request->has('file')){
             return [
                 'success' => false,
